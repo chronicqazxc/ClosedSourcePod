@@ -1,0 +1,11 @@
+framework module ClosedCodeFramework {
+  umbrella header "ClosedCodeFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module ClosedCodeFramework.Swift {
+    header "ClosedCodeFramework-Swift.h"
+    requires objc
+}
