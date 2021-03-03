@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
 
     s.platform                = :ios
     # s.source                  = { :http => 'https://wayne-closed-pod-test.s3.ap-northeast-2.amazonaws.com/ClosedCodeFramework.zip' }
+    s.source                  = {  }
 
     s.ios.deployment_target   = '9.0'
     s.ios.vendored_frameworks = 'ClosedCodeFramework.framework'
